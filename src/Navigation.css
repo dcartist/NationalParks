@@ -1,0 +1,39 @@
+.navigationBar{
+    width: 99%;
+    /* height:30px; */
+    background-color: black;
+    color: white;
+    
+    margin: auto;
+    display: grid;
+    grid-template-columns: 70px 1fr;
+
+}
+
+.navigationBar a:hover, a:visited, a:link, a:active{
+    color: white;
+    text-decoration: none;
+}
+.navigationBar img {
+    height: 60px;
+    padding: 10px;
+    vertical-align: baseline;
+    display: inline;
+}
+
+.navigationBar h1{
+    color: white;
+}
+
+@media only screen and (max-width: 700px){
+    .navigationBar{
+        width: 99%;
+        /* height:30px; */
+        background-color: black;
+        color: white;
+        margin: 0;
+        display: grid;
+        grid-template-columns: 70px 1fr;
+    
+    }
+}
